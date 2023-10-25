@@ -82,7 +82,8 @@ Calculate Correlation and Regression
 
     Calculate the correlation coefficient and linear regression model between mouse weight and average observed tumor volume for the entire Capomulin treatment regimen.
 
+ Plot the linear regression model on top of the previous scatter plot.
 
 ### NOTE
 print statement for finding possible outliers `print(f"Possible outlier for {drug}: {result.loc[(result > upper_fence) | (result < lower_fence)]}")` developed with help of classmate.
-    Plot the linear regression model on top of the previous scatter plot.
+   
